@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+p{
+    margin:0;
+    font-family: cursive;
+    padding: 40px 10px 10px 10px;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Satisfy', cursive;
+}
+
+h1{
+    margin-bottom: 15px;
+    text-align: center;
+    color: #ff4532;
+    font-size: 50px;
+}
+
+.box{
+   
+}
+
+.titulos{
+    width: 100px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    border: 3px solid black;
+    float: right;
+    margin: 0;
+    border-top:0 ;
+    border-right: 0;
+}
+
+.titulos-1{
+    background-color: rgb(243, 197, 113);
+}
+.titulos-2{
+    background-color: rgb(247, 90, 90);
+}
+.titulos-3{
+    background-color: rgb(125, 125, 241)    ;
+}
+/** Grandes **/
+
+@media (min-width:992px) {
+    .col-lg-4{
+        float: left;
+        border: 5px solid black;
+        background-color: rgb(241, 186, 160);
+        width: 30%;
+        margin-right: 10px;
+    }
+
+    .bloco-1{
+        margin-left: 50px;
+    }
+
+
+}
+/** Médios **/
+
+@media (min-width:768px) and (max-width:991px) {
+     .col-md-6, .col-md-12{
+        float: left;
+        border: 5px solid black;
+        background-color: rgb(241, 186, 160);
+
+    }        
+    
+    .col-md-6{
+        width: 50%;
+    }
+
+    .col-md-12{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+}
+
+/** Pequenos **/
+
+@media (min-width:0px) and (max-width:767px) {
+    .col-sm-12{
+        border: 5px solid black;
+        background-color: rgb(241, 186, 160);
+        width: 100%;
+        margin-bottom: 15px;
+    }        
+}
+
